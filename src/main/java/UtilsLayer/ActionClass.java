@@ -8,6 +8,11 @@ import BaseLayer.BaseClass;
 
 public class ActionClass extends BaseClass{
 	
+	public static void copyPaste()
+	{
+		System.out.println("ppppppp");
+	}
+	
 	public static void click(WebElement wb)
 	{
 		Actions act = new Actions(driver);
